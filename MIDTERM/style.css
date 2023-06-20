@@ -1,0 +1,82 @@
+/* a.) Example of 3 types of selectors */
+/* Type Selector */
+body {
+    /* Styles for body element */
+  }
+  
+  /* Class Selector */
+  .wrapper {
+    /* Styles for elements with class "wrapper" */
+  }
+  
+  /* ID Selector */
+  #mainheading {
+    /* Styles for element with ID "mainheading" */
+  }
+  
+  
+  /* b.) Set the font-family of all headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster Two', cursive; /* Replace 'YourWebFont' with the desired font name */
+  }
+  
+  /* c.) Set the font-family and text size of paragraphs and table text */
+  p, table {
+    font-family: 'YourLocalFont', sans-serif; /* Replace 'YourLocalFont' with the desired font name */
+    font-size: 18px;
+  }
+  
+  /* d.) Set the text size of paragraphs and table text to a relative unit */
+  p, table {
+    font-size: 1.125rem; /* Equivalent to 18px assuming the default font size is 16px */
+  }
+  
+  /* f.) Set the div.wrapper to 80% of the viewport width */
+  .wrapper {
+    width: 80vw;
+    margin: 0 auto; /* Centers the div in the middle of the page */
+    padding: 1rem; /* Additional padding for better spacing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  /* g.) Add padding to the article */
+  article {
+    padding-top: 2rem; /* Use rem unit for better scalability */
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  
+  /* h.) Set background color for div.wrapper */
+  .wrapper {
+    background-color: #f0f0f0; /* Replace with desired background color */
+  }
+  
+  /* i.) Make the image responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* j.) Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center; /* Center align the text */
+  }
+  
+  /* k.) Style the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table th, table td {
+    border: 1px solid #000;
+    padding: 1rem;
+    text-align: center; /* Center align the content */
+  }
+  
+  /* l.) CSS organization and formatting */
+  /* Group related styles together and use proper indentation and comments for clarity */
+  
